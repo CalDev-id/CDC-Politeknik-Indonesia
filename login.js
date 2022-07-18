@@ -62,7 +62,7 @@ function showBoxLogin() {
 
 	setTimeout(() => {
 		boxLogin.style.opacity = "1";
-		iconRegLog.src = "../IMG/gambar2.png";
+		iconRegLog.src = "gambar2.png";
 		iconRegLog.style.opacity = "1";
 	}, 500);
 }
@@ -76,7 +76,7 @@ function showBoxRegister() {
 
 	setTimeout(() => {
 		boxRegister.style.opacity = "1";
-		iconRegLog.src = "../IMG/gambar1.png";
+		iconRegLog.src = "gambar1.png";
 		iconRegLog.style.opacity = "1";
 	}, 500);
 }

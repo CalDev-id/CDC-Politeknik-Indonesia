@@ -71,7 +71,7 @@ function formParent() {
 	</div>
 	<div class="closeBtn" onclick="removeParent(this)">
 		<img
-			src="../IMG/cross.png"
+			src="cross.png"
 			alt=""
 			width="30px"
 			height="30px"
