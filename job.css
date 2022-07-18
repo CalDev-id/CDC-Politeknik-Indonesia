@@ -107,6 +107,9 @@
 }
 .kartujob .jobcontainer .vacancy .v {
     transition: all .2s linear;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
 }
 .kartujob .jobcontainer .vacancy .f:hover {
     cursor: pointer;
@@ -119,6 +122,16 @@
     background-color: #8b8e94;
     color: #e3e5e8;
     transition: all .2s linear;
+}
+.kartujob .jobcontainer .vacancy a {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 10px;
+    font-size: 15px;
 }
 .kartujob .jobcontainer .vacancy h1 {
     padding: 10px;
@@ -141,6 +154,9 @@
     height: fit-content;
     display: flex;
     box-shadow: 0 0 0.8px;;
+}
+.jobcontainer:hover {
+    cursor: pointer;
 }
 .pagenumber {
     margin-top: 10px;
@@ -472,6 +488,9 @@ footer {
     }
     .kartujob .jobcontainer .vacancy .v {
         transition: all .2s linear;
+        text-decoration: none;
+        color: grey;
+        font-weight: bold;
     }
     .kartujob .jobcontainer .vacancy .f:hover {
         cursor: pointer;
@@ -507,6 +526,9 @@ footer {
         display: flex;
         flex-wrap: wrap;
         box-shadow: 0 0 0.8px;;
+    }
+    .jobcontainer:hover {
+        cursor: pointer;
     }
     .pagenumber {
         margin-top: 20px;
@@ -750,5 +772,26 @@ footer {
     }
     .rightcolumn {
         width: 78%;
+    }
+}
+
+@media only screen and (width: 768px) {
+    .kartujob .jobcontainer .vacancy {
+        display: block;
+        margin-top: 7px;
+        margin-left: 50%;
+    }
+    .kartujob .jobcontainer .vacancy .f {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (width: 820px) {
+    .kartujob .jobcontainer .vacancy {
+        margin-top: 7px;
+        margin-left: 50%;
+    }
+    .kartujob .jobcontainer .vacancy .f {
+        margin-bottom: 5px;
     }
 }

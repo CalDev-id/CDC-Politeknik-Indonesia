@@ -759,6 +759,16 @@ footer {
     }
 }
 
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    .kartujob .jobcontainer .imgcontainer img {
+        margin: 20px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+        height: 200px;
+        width: 265px;
+    }
+}
+
 @media only screen and (min-width: 769px) and (max-width: 1500px) {
     .leftcolumn {
         margin-left: 40px;
