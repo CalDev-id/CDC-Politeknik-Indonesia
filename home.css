@@ -64,7 +64,8 @@ img.search-icon {
 	color: #5d5d5d;
 	text-align: center;
 	font-size: 22px;
-	margin-top: 50px;
+	margin-top: 0px;
+	margin-bottom: -10px;
 }
 
 /* card */
@@ -271,7 +272,7 @@ footer {
 	position: relative;
 	margin-top: 117px;
 	height: 65vh;
-	overflow-x: hidden;
+	overflow: hidden;
 	margin-bottom: 50px;
 }
 .slider {
@@ -339,7 +340,7 @@ footer {
 	text-align: center;
 	width: 90%;
 	margin-inline: auto;
-	margin-bottom: 50px;
+	margin-bottom: -25px;
 }
 .alasan h2 {
 	margin-bottom: 30px;
@@ -354,21 +355,30 @@ footer {
 }
 
 /* FINDJOB */
+.waves2 {
+	margin-top: -50px;
+}
 .findjob {
-	width: 90%;
+	width: 100%;
 	margin-inline: auto;
+	margin-top: -10px;
 	display: block;
+	background: #fada5c;
 }
 .findjob h2 {
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	padding-top: 10px;
 }
 .cardkantor {
 	background: #f1f3f4;
 	padding: 0 20px;
+	margin-inline: auto;
 	margin-bottom: 20px;
 	padding-top: 20px;
 	padding-bottom: 30px;
+	width: 90%;
+	border-radius: 10px;
 }
 .cardkantor img {
 	width: 25%;
@@ -436,7 +446,7 @@ footer {
 }
 
 .more {
-	background: #f3d457;
+	background: white;
 	margin-bottom: 50px;
 	width: 200px;
 	padding: 10px;
@@ -453,11 +463,31 @@ footer {
 
 @media only screen and (min-width: 768px) {
 	/* FINDJOB */
+	.waves1 {
+		left: 0;
+		bottom: 0;
+		z-index: -1;
+		margin-bottom: -50px;
+	}
+	.waves2 {
+		left: 0;
+		bottom: 0;
+		margin-top: -100px;
+		z-index: -1;
+		position: relative;
+	}
+	.waves3 {
+		left: 0;
+		bottom: 0;
+		transform: rotateX(180deg);
+		margin-bottom: -100px;
+	}
 	.findjob {
 		padding-top: 50px;
-		width: 80%;
+		width: 100%;
 		margin-inline: auto;
 		display: block;
+		background-color: #fada5c;
 	}
 	.findjob h2 {
 		text-align: center;
@@ -479,6 +509,7 @@ footer {
 		padding-top: 20px;
 		padding-bottom: 30px;
 		display: flex;
+		border-radius: 10px;
 	}
 	.deskjob {
 		margin-top: 20px;
@@ -503,6 +534,10 @@ footer {
 		text-decoration: none;
 	}
 
+	.webinar {
+		margin-top: -75px;
+	}
+
 	.gambarbanner {
 		width: 500px;
 		margin-left: 0px;
@@ -511,7 +546,7 @@ footer {
 	.banner {
 		width: 80%;
 		margin-inline: auto;
-		max-height: 450px;
+		max-height: fit-content;
 	}
 	.kata2 {
 		width: 50%;
@@ -528,7 +563,8 @@ footer {
 	}
 	#banner {
 		margin-bottom: 70px;
-		max-height: 450px;
+		max-height: fit-content;
+		overflow: hidden;
 	}
 	.daftar {
 		padding-left: 100px;
@@ -544,7 +580,7 @@ footer {
 	}
 	.alasan {
 		width: 80%;
-		margin-bottom: 100px;
+		margin-bottom: -60px;
 	}
 
 	/*  BERITA CUY */
@@ -727,8 +763,9 @@ footer {
 		border: none;
 	}
 	.more {
-		background: #f3d457;
+		background: white;
 		margin-bottom: 50px;
+		margin-top: 20px;
 		width: 165px;
 		padding: 10px;
 		color: #685403;
