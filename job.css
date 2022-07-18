@@ -1,0 +1,754 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 150px;
+}
+.leftcolumn {
+    float: left;
+    width: 80%;
+    display: none;
+    margin-left: 10%;
+    position: relative;
+}
+.kartu {
+    padding: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0.8px;;
+}
+.kartu h1 {
+    font-size: 20px;
+}
+.kartu hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.kartu ul li {
+    margin-top: 15px;
+}
+.kartu ul li input {
+    margin-right: 10px;
+}
+.kartu ul li span {
+    margin-right: 0px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    float: right;
+}
+.kartu ul li:hover > span {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    transition: all .2s linear;
+}
+.kartu ul li:hover > label, input, span {
+    cursor: pointer ;
+}
+.rightcolumn {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.kartujob {
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.kartujob h1 {
+    font-size: 25px;
+    margin-top: -25px;
+}
+.kartujob h2 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #8b8e94;
+}
+.kartujob .jobcontainer h1 {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.kartujob .jobcontainer .imgcontainer img {
+    margin: 20px;
+    height: 85px;
+    width: 85px;
+}
+.kartujob .jobcontainer .desc {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+.kartujob .jobcontainer .desc h2 {
+    font-size: 12px;
+}
+.kartujob .jobcontainer .desc h1 {
+    margin-top: 0;
+    padding-left: 0;
+    font-size: 15px;
+}
+.kartujob .jobcontainer .vacancy {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 9%;
+    margin-top: 27%;
+    position: absolute;
+}
+.kartujob .jobcontainer .vacancy .f {
+    transition: all .2s linear;
+}
+.kartujob .jobcontainer .vacancy .v {
+    transition: all .2s linear;
+}
+.kartujob .jobcontainer .vacancy .f:hover {
+    cursor: pointer;
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    transition: all .2s linear;
+}
+.kartujob .jobcontainer .vacancy .v:hover {
+    cursor: pointer;
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    transition: all .2s linear;
+}
+.kartujob .jobcontainer .vacancy h1 {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.kartujob .jobcontainer .vacancy i {
+    margin-right: 5px;
+    transition: all 0s linear;
+}
+.jobcontainer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 60px;
+    height: fit-content;
+    display: flex;
+    box-shadow: 0 0 0.8px;;
+}
+.pagenumber {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pagenumber h1 {
+    margin-top: 10px;
+    padding: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-bottom: 13px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    font-size: 15px;
+}
+.pagenumber .pg {
+    margin-top: 10px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 13px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    font-size: 15px;
+}
+.pagenumber .nextpg {
+    margin-top: 10px;
+    padding: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-bottom: 13px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    font-size: 15px;
+}
+.pagenumber .nextpg i {
+    transition: all 0s linear;
+}
+.pagenumber .pg1:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.pagenumber .pg2:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.pagenumber .pg3:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.pagenumber .pg4:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.pagenumber .pg5:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.pagenumber .pg6:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.pagenumber .pg:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.pagenumber .nextpg:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.pagenumber .pg9:hover {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+/* mobile */
+.container2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.leftcolumn2 {
+    float: left;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    position: relative;
+}
+.kartu2 {
+    padding: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0.8px;;
+}
+.kartu2 h1 {
+    font-size: 20px;
+}
+.kartu2 hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.kartu2 ul li {
+    margin-top: 15px;
+}
+.kartu2 ul li input {
+    margin-right: 10px;
+}
+.kartu2 ul li span {
+    margin-right: 0px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    float: right;
+}
+.kartu2 ul li:hover > span {
+    background-color: #8b8e94;
+    color: #e3e5e8;
+    transition: all .2s linear;
+}
+.kartu2 ul li:hover > label, input, span {
+    cursor: pointer ;
+}
+footer {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.deskripsifooter h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.deskripsifooter p {
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+.deskripsifooter pre {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #58595b;
+}
+.jurusan-perusahaan {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.jurusan-perusahaan ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.jurusan-perusahaan p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.jurusan2 {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.jurusan2 ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.jurusan2 p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.kuning {
+    text-align: center;
+    background: #f3d457;
+    font-size: 12px;
+    padding: 15px;
+}
+.metode img{
+    width: 50px;
+    margin: 3px 10px 3px 0px;
+}
+.pembayaran {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-metode {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.social ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 38px;
+    color: #58595b;
+}
+.social p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.metode p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.social {
+    margin-bottom: 20px;
+}
+.metode ul {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin-top: 215px;
+        margin-bottom: -75px;
+    }
+    .leftcolumn {
+        float: left;
+        width: 20%;
+        display: inline;
+        margin-left: 12%;
+        visibility: visible;
+    }
+    .kartu {
+        padding: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 0.8px;;
+    }
+    .kartu h1 {
+        font-size: 20px;
+    }
+    .kartu hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .kartu ul li {
+        margin-top: 15px;
+    }
+    .kartu ul li input {
+        margin-right: 10px;
+    }
+    .kartu ul li span {
+        margin-right: 0px;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 10px;
+        background-color: lightgrey;
+        float: right;
+    }
+    .kartu ul li:hover > span {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        transition: all .2s linear;
+    }
+    .kartu ul li:hover > label, input, span {
+        cursor: pointer ;
+    }
+    .rightcolumn {
+        float: left;
+        width: 57%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .kartujob {
+        padding: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .kartujob h1 {
+        font-size: 25px;
+        margin-top: -25px;
+    }
+    .kartujob h2 {
+        font-size: 15px;
+        margin-top: 10px;
+        color: #8b8e94;
+    }
+    .kartujob .jobcontainer h1 {
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    .kartujob .jobcontainer .imgcontainer img {
+        margin: 20px;
+        height: 85px;
+        width: 85px;
+    }
+    .kartujob .jobcontainer .desc {
+        margin-top: 30px;
+    }
+    .kartujob .jobcontainer .desc h2 {
+        font-size: 15px;
+    }
+    .kartujob .jobcontainer .desc h1 {
+        margin-top: 0;
+        padding-left: 0;
+        font-size: 20px;
+    }
+    .kartujob .jobcontainer .vacancy {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
+        margin-left: 34%;
+        position: absolute;
+    }
+    .kartujob .jobcontainer .vacancy .f {
+        transition: all .2s linear;
+    }
+    .kartujob .jobcontainer .vacancy .v {
+        transition: all .2s linear;
+    }
+    .kartujob .jobcontainer .vacancy .f:hover {
+        cursor: pointer;
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        transition: all .2s linear;
+    }
+    .kartujob .jobcontainer .vacancy .v:hover {
+        cursor: pointer;
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        transition: all .2s linear;
+    }
+    .kartujob .jobcontainer .vacancy h1 {
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 10px;
+        border: 1px solid grey;
+        color: grey;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .kartujob .jobcontainer .vacancy i {
+        margin-right: 5px;
+        transition: all 0s linear;
+    }
+    .jobcontainer {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 0 0 0.8px;;
+    }
+    .pagenumber {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .pagenumber h1 {
+        margin-top: 10px;
+        padding: 7px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        background-color: lightgrey;
+        font-size: 25px;
+    }
+    .pagenumber .pg {
+        margin-top: 10px;
+        padding: 7px;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        background-color: lightgrey;
+        font-size: 25px;
+    }
+    .pagenumber .nextpg {
+        margin-top: 10px;
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 18px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        background-color: lightgrey;
+        font-size: 25px;
+    }
+    .pagenumber .nextpg i {
+        transition: all 0s linear;
+    }
+    .pagenumber .pg1:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+    }
+    .pagenumber .pg2:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+    }
+    .pagenumber .pg3:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+    }
+    .pagenumber .pg4:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+    }
+    .pagenumber .pg5:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+    }
+    .pagenumber .pg6:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+    }
+    .pagenumber .pg:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+    }
+    .pagenumber .nextpg:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+        transition: all .2s linear;
+    }
+    .pagenumber .pg9:hover {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        cursor: pointer;
+    }
+    .container:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* mobile */
+    .container2 {
+        margin-top: 80px;
+    }
+    .leftcolumn2 {
+        float: left;
+        width: 80%;
+        display: none;
+        margin-left: 10%;
+        position: relative;
+    }
+    .kartu2 {
+        padding: 20px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        box-shadow: 0 0 0.8px;;
+    }
+    .kartu2 h1 {
+        font-size: 20px;
+    }
+    
+    .kartu2 hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .kartu2 ul li {
+        margin-top: 15px;
+    }
+    
+    .kartu2 ul li input {
+        margin-right: 10px;
+    }
+    
+    .kartu2 ul li span {
+        margin-right: 0px;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 10px;
+        background-color: lightgrey;
+        float: right;
+    }
+    
+    .kartu2 ul li:hover > span {
+        background-color: #8b8e94;
+        color: #e3e5e8;
+        transition: all .2s linear;
+    }
+    
+    .kartu2 ul li:hover > label, input, span {
+        cursor: pointer ;
+    }
+    .container2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .deskripsifooter {
+        margin-right: 100px;
+    }
+    .jurusan {
+        margin-right: 100px;
+    }
+    .kuning {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .deskripsifooter h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .deskripsifooter p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .deskripsifooter pre {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .jurusan-perusahaan {
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+    .jurusan-perusahaan ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .jurusan-perusahaan p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .jurusan2 {
+        margin-right: 40px;
+    }
+    .jurusan2 ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .jurusan2 p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .social-metode {
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .social {
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width:1350px) {
+    .leftcolumn {
+        margin-left: 50px;
+    }
+    .rightcolumn {
+        width: 72%;
+    }
+    .kartujob .jobcontainer .vacancy {
+        margin-left: 43%;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width:770px) {
+    .kartujob .jobcontainer .vacancy {
+        margin-top: 17%;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1150px) {
+    .leftcolumn {
+        margin-left: 10px;
+    }
+    .rightcolumn {
+        width: 78%;
+    }
+}

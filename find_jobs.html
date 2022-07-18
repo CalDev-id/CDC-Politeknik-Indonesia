@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="job.css" />
+		<link rel="stylesheet" href="navbar.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+		<title>Find Jobs</title>
+	</head>
+	<body>
+		<div class="navBar">
+			<div class="alert-container">
+				<div class="alert">
+					<h3>Spesial Hari Ini DISKON s/d 50% - Webinar Dan Konsultasi!</h3>
+					<!-- <p>Pilih webinar yang kamu inginkan</p> -->
+					<p>Cari pekerjaan impianmu disini</p>
+					<a href="login.html" class="dapatkan">Dapatkan Sekarang</a>
+				</div>
+			</div>
+			<nav>
+				<div class="nav">
+					<div class="menu-toggle">
+						<input type="checkbox" name="" id="" />
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+
+					<div class="logo">
+						<h4>
+							Politeknik
+							<br />
+							Indonesia
+						</h4>
+					</div>
+
+					<div class="navWithBtn">
+						<div class="navigasi">
+							<a href="index.html">Home</a>
+							<a href="find_jobs.html" style="font-weight: bold;">Find Jobs</a>
+							<a href="webinar.html">Webinar</a>
+							<a href="news.html">News</a>
+							<a href="about_us.html">About Us</a>
+							<a href="faq.html">FAQ</a>
+						</div>
+
+						<div class="logSignUp">Masuk</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- <div class="alert-container">
+        <div class="alert">
+            <h3>Spesial Hari Ini DISKON s/d 50% - Webinar Dan Konsultasi!</h3>
+            <p>Pilih webinar yang kamu inginkan</p>
+            <a href="#" class="dapatkan">Dapatkan Sekarang</a>
+        </div>
+    </div>
+    <nav>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div>
+            <h2>
+                <pre class="logo">
+Politeknik
+Indonesia</pre> </h2>
+        </div>
+        <div class="nav">
+            <div class="navlistcontainer">
+                <ul>
+                    <li class="nav-list">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="test4.html">Find Jobs</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html">Webinar</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="index.html">News</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="test5.html">FAQ</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="test3.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="#" class="masuk">Masuk</a>
+        </div>
+        <a href="#" class="masuk2">Masuk</a>
+    </nav> -->
+		<div class="container">
+			<div class="leftcolumn">
+				<div class="kartu">
+					<h1>Sorted Date</h1>
+					<hr />
+					<ul>
+						<li>
+							<input
+								type="radio"
+								id="lasthour"
+								value="lasthour"
+								name="date"
+							/><label for="lasthour">Last Hour</label><span>0</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="last24hour"
+								value="last24hour"
+								name="date"
+							/><label for="last24hour">Last 24 Hour</label><span>0</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="last7days"
+								value="last7days"
+								name="date"
+							/><label for="last7days">Last 7 Days</label><span>3</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="last14days"
+								value="last14days"
+								name="date"
+							/><label for="last14days">Last 14 Days</label><span>5</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="last30days"
+								value="last30days"
+								name="date"
+							/><label for="last30days">Last 30 Days</label><span>1</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="all"
+								value="all"
+								name="date"
+								checked
+							/><label for="all">All</label><span>0</span>
+						</li>
+					</ul>
+				</div>
+				<div class="kartu">
+					<h1>Sector</h1>
+					<hr />
+					<ul>
+						<li>
+							<input
+								type="radio"
+								id="accounting"
+								value="accounting"
+								name="sektor"
+							/><label for="accounting">Accounting / Audit</label><span>1</span>
+						</li>
+						<li>
+							<input type="radio" id="art" value="art" name="sektor" /><label
+								for="art"
+								>Arts / Design</label
+							><span>3</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="computer"
+								value="computer"
+								name="sektor"
+							/><label for="computer">Computer / Hardware</label><span>4</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="software"
+								value="software"
+								name="sektor"
+							/><label for="software">Computer / Software</label><span>9</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="construction"
+								value="construction"
+								name="sektor"
+							/><label for="construction">Construction / Building</label
+							><span>8</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="education"
+								value="education"
+								name="sektor"
+							/><label for="education">Education</label><span>5</span>
+						</li>
+						<li>
+							<input type="radio" id="law" value="law" name="sektor" /><label
+								for="law"
+								>Law / Legal</label
+							><span>7</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="allsector"
+								value="allsector"
+								name="sektor"
+								checked
+							/><label for="allsector">All</label><span>9</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="rightcolumn">
+				<div class="kartujob">
+					<h1>70 Employers Found</h1>
+					<h2>Displayed Here: 1 - 5 Employers</h2>
+
+
+					<div class="jobcontainer">
+						<div class="imgcontainer">
+							<img src="liquide.png" alt="Logo Ega" />
+						</div>
+						<div class="desc">
+							<h2>Chemical / Fertilizers / Pesticides</h2>
+							<h1>PT. Air Liquide Indonesia</h1>
+						</div>
+						<div class="vacancy">
+							<h1 class="f"><i class="fa fa-user-plus"></i><a style="color: #808080; text-decoration: none;" href="jobdetail.html">Follow</a></h1>
+							<h1 class="v"><a style="color: #808080; text-decoration: none;" href="jobdetail.html">2 Vacancy</a></h1>
+						</div>
+					</div>
+
+					
+					<div class="jobcontainer">
+						<div class="imgcontainer">
+							<img src="medco.png" alt="Logo Ega" />
+						</div>
+						<div class="desc">
+							<h2>Mining</h2>
+							<h1>PT. Medco E & P Indonesia</h1>
+						</div>
+						<div class="vacancy">
+							<h1 class="f"><i class="fa fa-user-plus"></i><a style="color: #808080; text-decoration: none;" href="jobdetail.html">Follow</a></h1>
+							<h1 class="v"><a style="color: #808080; text-decoration: none;" href="jobdetail.html">3 Vacancy</a></h1>
+						</div>
+					</div>
+					<div class="jobcontainer">
+						<div class="imgcontainer">
+							<img src="ega.png" alt="Logo Ega" />
+						</div>
+						<div class="desc">
+							<h2>Electrical & Electronics</h2>
+							<h1>PT. Ega Tekelindo Prima</h1>
+						</div>
+						<div class="vacancy">
+							<h1 class="f"><i class="fa fa-user-plus"></i><a style="color: #808080; text-decoration: none;" href="jobdetail.html">Follow</a></h1>
+							<h1 class="v"><a style="color: #808080; text-decoration: none;" href="jobdetail.html">1 Vacancy</a></h1>
+						</div>
+					</div>
+					<div class="jobcontainer">
+						<div class="imgcontainer">
+							<img src="summit.png" alt="Logo Ega" />
+						</div>
+						<div class="desc">
+							<h2>Non-Profit Organization / Social Services / NGO</h2>
+							<h1>Summit Institute for Development (SID)</h1>
+						</div>
+						<div class="vacancy">
+							<h1 class="f"><i class="fa fa-user-plus"></i><a style="color: #808080; text-decoration: none;" href="jobdetail.html">Follow</a></h1>
+							<h1 class="v"><a style="color: #808080; text-decoration: none;" href="jobdetail.html">7 Vacancy</a></h1>
+						</div>
+					</div>
+					<div class="jobcontainer">
+						<div class="imgcontainer">
+							<img src="revass.png" alt="Logo Ega" />
+						</div>
+						<div class="desc">
+							<h2>Healthcare / Medical</h2>
+							<h1>Revass Utama Medika</h1>
+						</div>
+						<div class="vacancy">
+							<h1 class="f"><i class="fa fa-user-plus"></i><a style="color: #808080; text-decoration: none;" href="jobdetail.html">Follow</a></h1>
+							<h1 class="v"><a style="color: #808080; text-decoration: none;" href="jobdetail.html">4 Vacancy</a></h1>
+						</div>
+					</div>
+					<div class="pagenumber">
+						<h1 class="pg1" checked>1</h1>
+						<h1 class="pg2">2</h1>
+						<h1 class="pg3">3</h1>
+						<h1 class="pg4">4</h1>
+						<h1 class="pg5">5</h1>
+						<h1 class="pg6">6</h1>
+						<h1 class="pg">...</h1>
+						<h1 class="pg9">9</h1>
+						<h1 class="nextpg"><i class="fa fa-angle-right"></i></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container2">
+			<div class="leftcolumn2">
+				<div class="kartu2">
+					<h1>Sorted Date</h1>
+					<hr />
+					<ul>
+						<li>
+							<input
+								type="radio"
+								id="lasthour"
+								value="lasthour"
+								name="date"
+							/><label for="lasthour">Last Hour</label><span>0</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="last24hour"
+								value="last24hour"
+								name="date"
+							/><label for="last24hour">Last 24 Hour</label><span>0</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="last7days"
+								value="last7days"
+								name="date"
+							/><label for="last7days">Last 7 Days</label><span>3</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="last14days"
+								value="last14days"
+								name="date"
+							/><label for="last14days">Last 14 Days</label><span>5</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="last30days"
+								value="last30days"
+								name="date"
+							/><label for="last30days">Last 30 Days</label><span>1</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="all2"
+								value="all2"
+								name="date2"
+								checked
+							/><label for="all2">All</label><span>0</span>
+						</li>
+					</ul>
+				</div>
+				<div class="kartu2">
+					<h1>Sector</h1>
+					<hr />
+					<ul>
+						<li>
+							<input
+								type="radio"
+								id="accounting"
+								value="accounting"
+								name="sektor"
+							/><label for="accounting">Accounting / Audit</label><span>1</span>
+						</li>
+						<li>
+							<input type="radio" id="art" value="art" name="sektor" /><label
+								for="art"
+								>Arts / Design</label
+							><span>3</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="computer"
+								value="computer"
+								name="sektor"
+							/><label for="computer">Computer / Hardware</label><span>4</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="software"
+								value="software"
+								name="sektor"
+							/><label for="software">Computer / Software</label><span>9</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="construction"
+								value="construction"
+								name="sektor"
+							/><label for="construction">Construction / Building</label
+							><span>8</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="education"
+								value="education"
+								name="sektor"
+							/><label for="education">Education</label><span>5</span>
+						</li>
+						<li>
+							<input type="radio" id="law" value="law" name="sektor" /><label
+								for="law"
+								>Law / Legal</label
+							><span>7</span>
+						</li>
+						<li>
+							<input
+								type="radio"
+								id="allsector2"
+								value="allsector2"
+								name="sektor2"
+								checked
+							/><label for="allsector2">All</label><span>9</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="deskripsifooter">
+				<h3>Politeknik Indonesia</h3>
+				<pre>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Ratione numquam, at modi quidem perspiciatis voluptas dolores
+nulla tenetur incidunt dolore fugiat error nesciunt repellat.</pre
+				>
+				<p style="font-weight: bold">Customer Service</p>
+				<p style="margin-bottom: 10px">0851-5287-1220 (Whatsapp)</p>
+				<p style="font-weight: bold">Email</p>
+				<p style="margin-bottom: 10px">humas@pnj.ac.id</p>
+				<p style="font-weight: bold">Alamat</p>
+				<pre style="margin-bottom: 10px">
+Jl. Prof. DR. G.A. Siwabessy, 
+Kampus Universitas Indonesia Depok 16425</pre
+				>
+				<p style="font-weight: bold">Info Kerja Sama</p>
+				<p style="margin-bottom: 30px">partnership@PoliteknikIndonesia.net</p>
+			</div>
+			<div class="jurusan-perusahaan">
+				<div class="jurusan">
+					<p>Jurusan</p>
+					<ul>
+						<li>Teknik Sipil</li>
+						<li>Teknik Mesin</li>
+						<li>Teknik Elektro</li>
+						<li>Teknik Informatika</li>
+						<li>Teknik Grafika</li>
+						<li>Akuntansi</li>
+						<li>Administrasi Niaga</li>
+						<li>Pascasarjana</li>
+					</ul>
+				</div>
+				<div class="jurusan">
+					<p>Perusahaan</p>
+					<ul>
+						<li>PT. TELKOM INDONESIA</li>
+						<li>PT. BANK CENTRAL ASIA</li>
+						<li>PT. DIRGANTARA</li>
+						<li>PT. KAI INDONESIA</li>
+						<li>PT. PERTAMINA</li>
+						<li>PT. INDOSAT</li>
+						<li>BANK MANDIRI</li>
+						<li>BANK INDONESIA</li>
+					</ul>
+				</div>
+			</div>
+			<div class="jurusan2">
+				<p>Kerja Sama</p>
+				<ul>
+					<li>Info Kolaborasi</li>
+					<li>Mahasiswa</li>
+					<li>Media</li>
+					<li>BUMN</li>
+					<li>Rumah Sakit</li>
+					<li>Unit Pemerintahan</li>
+				</ul>
+			</div>
+		</footer>
+		<div class="social-metode">
+			<div class="social">
+				<p>Ikuti Kami</p>
+				<ul>
+					<li><i class="bx bxl-instagram"></i></li>
+					<li><i class="bx bxl-youtube"></i></li>
+					<li><i class="bx bxl-twitter"></i></li>
+					<li><i class="bx bxl-facebook-circle"></i></li>
+					<li><i class="bx bxl-spotify"></i></li>
+					<li><i class="bx bxl-linkedin-square"></i></li>
+					<li><i class="bx bxl-tiktok"></i></li>
+				</ul>
+			</div>
+			<div class="metode">
+				<p>Metode Pembayaran</p>
+				<ul class="pembayaran">
+					<li><img src="gopay.png" alt="" /></li>
+					<li><img src="ovo.png" alt="" /></li>
+					<li><img src="alfamart-logo.c0cd14a.png" alt="" /></li>
+					<li><img src="indomaret-logo.2124afd.png" alt="" /></li>
+					<li><img src="bni-logo.a3992d9.png" alt="" /></li>
+					<li><img src="bca-logo.6241f5b.png" alt="" /></li>
+					<li><img src="mandiri-logo.b70af2c.png" alt="" /></li>
+					<li><img style="width: 60px" src="bri-logo.62b0cd5.png" alt="" /></li>
+					<li>
+						<img
+							style="width: 40px; height: 30px"
+							src="mastercard-logo.6631941.png"
+							alt=""
+						/>
+					</li>
+					<li><img src="visa-logo.7858762.png" alt="" /></li>
+					<li><img style="width: 75px" src="akulaku.ce502c5.png" alt="" /></li>
+					<li><img style="width: 60px" src="kredivo.51b02dd.png" alt="" /></li>
+					<li>
+						<img style="width: 100px" src="shopeepay.4f99f38.png" alt="" />
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="kuning">
+			<p>2022 POLITEKNIK INDONESIA</p>
+			<p>Jakarta, Indonesia</p>
+		</div>
+
+		<script src="navbar.js"></script>
+	</body>
+</html>

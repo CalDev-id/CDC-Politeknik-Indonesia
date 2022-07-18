@@ -1,0 +1,653 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+/* NAVIGASI */
+/* nav {
+    display: flex;
+    width: 100%;
+    background: white;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+}
+.logo {
+    font-size: 1rem;
+}
+.nav {
+    display: none;
+}
+
+.menu-toggle {
+    display: grid;
+    justify-content: right;
+    padding-inline: 1rem;
+
+}
+.bar {
+    background-color:black;
+    display: block;
+    height: 2px;
+    margin: 4px auto;
+    width: 1.5rem;
+}
+.masuk {
+    width: 60px;
+    height:fit-content;
+    text-align: center;
+    background:#f3d457;
+    color: black;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-right: 1rem;
+}
+.masuk2 {
+    width: 60px;
+    height:fit-content;
+    text-align: center;
+    background:#f3d457;
+    color: black;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-right: 1rem;
+} */
+/* ALERT */
+/* .alert {
+    display: flex;
+    justify-content:space-around;
+    background: #1ea3b2;
+    color: white;
+    height: 65px;
+}
+.alert h3 {
+    font-size: 12px;
+    width: 50%;
+    margin-top: 20px;
+}
+.alert p {
+    display: none;
+}
+.dapatkan {
+    width: 125px;
+    height:fit-content;
+    text-align: center;
+    background: white;
+    color: #685403;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    font-size: 10px;
+    color: #1ea3b2;
+    font-weight: bold;
+    margin-top: 20px;
+} */
+.bannerjob {
+    background-image: url("bannerjob1.png");
+    width: 100%;
+    height: 320px;
+    background-color: #0c1829;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    position: relative;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding-top: 10px;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    position: relative;
+    transform: translateY(-100px);
+    box-shadow: 0 0 0.8px;;
+    margin-bottom: -60px;
+}
+.logo span {
+    width: 297px;
+    height: 200px;
+}
+.logo img {
+    width: 250px;
+    margin-top: 20px;
+    box-shadow: 0 0 0.8px;;
+}
+.title {
+    font-size: 24px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.posted {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 11px;
+    color: #8B8680;
+
+}
+.jobdesk span {
+    margin-left: 50px;
+    font-size: 14px;
+    font-style:normal;
+    color: black;
+    margin-bottom: 10px;
+}
+.posted p {
+    background-color: #f3d457;
+    padding: 5px;
+    font-size: 12px;
+    font-style: normal;
+    margin-right: 5px;
+    color: black;
+
+}
+.apply {
+    margin-left: 50px;
+    font-size: 13px;
+    color: #999999;
+    margin-bottom: 10px;
+
+}
+.apply p {
+    align-items: center;
+}
+.email {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    color: #8B8680;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.shortlist {
+    box-shadow: 0 0 2px black;
+    padding: 5px;
+    margin-right: 10px;
+}
+.share {
+    margin-left: 50px;
+    font-size: 11px;
+    color: #333333;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.logoshare {
+    margin-left: 5px;
+    font-size: 18px;
+    color: #333333;
+}
+.logoshare i {
+    border-radius: 20px;
+    border: solid #19757c 1px;
+}
+.main2 {
+    max-width: 90%;
+    margin-inline: auto;
+    box-shadow: 0 0 1px black;
+
+    padding-left: 30px;
+
+    padding-right: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+.maincontainer {
+    margin-inline: auto;
+}
+.icon {
+    color: #666666;
+    margin: 20px;
+    margin-left: 0;
+}
+.jobicon {
+    color: white;
+}
+.main2 p {
+    font-size: 20px;
+    color: #333333;
+}
+.icon p {
+    font-size: 14px;
+    margin-left: 20px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+.req {
+    color: #999999;
+    font-size: 14px;
+}
+.req h1 {
+    color: white;
+}
+.req ul li {
+    list-style:inside;
+}
+.req p {
+    color: #999999;
+    font-size: 15px;
+}
+.main3 {
+    width: 90%;
+    margin-inline: auto;
+    align-items: center;
+    box-shadow: 0 0 1px black;
+    margin-bottom: 50px;
+}
+.main3 h1 {
+    color: white;
+}
+.applyjob {
+    background:#1ea3b2;
+    color: white;
+    text-decoration: none;
+    padding: 10px 100px 10px 100px;
+}
+.main3 p {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #8B8680;
+
+}
+
+
+
+
+
+
+
+
+footer {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.deskripsifooter h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.deskripsifooter p {
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+
+.deskripsifooter pre {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #58595b;
+}
+.jurusan-perusahaan {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.jurusan-perusahaan ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.jurusan-perusahaan p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.jurusan2 {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.jurusan2 ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.jurusan2 p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.kuning {
+    text-align: center;
+    background: #f3d457;
+    font-size: 12px;
+    padding: 15px;
+}
+.metode img{
+    width: 50px;
+    margin: 3px 10px 3px 0px;
+}
+.pembayaran {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-metode {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.social ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 38px;
+    color: #58595b;
+}
+.social p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.metode p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.social {
+    margin-bottom: 20px;
+}
+.metode ul {
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* .alert {
+        width: 80%;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        background: #1ea3b2;
+        color: white;
+        height: 60px;
+    }
+    .alert h3 {
+        font-size: 18px;
+        width: 50%;
+        margin-top: 20px;
+    }
+    .alert p {
+        margin-top: 25px;
+        margin-right: 100px;
+        color: #19757c;
+        display:block;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .dapatkan {
+        width: 160px;
+        height:fit-content;
+        text-align: center;
+        background: white;
+        color: #685403;
+        text-decoration: none;
+        padding-top: 12px;
+        padding-bottom: 11px;
+        border-radius: 18px;
+        font-size: 12px;
+        color: #1ea3b2;
+        font-weight: bold;
+        margin-top: 13px;
+    }
+    .alert-container {
+        background: #1ea3b2;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content:space-around;
+        
+    }
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+    .nav ul {
+        display: flex;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .nav-list{
+        margin-right: 1.2rem;
+        list-style: none;
+        font-size: 14px;
+    }
+    .masuk {
+        margin-left: 20px;
+        width: 70px;
+        height:fit-content;
+        text-align: center;
+        background:#f3d457;
+        color: black;
+        text-decoration: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 5px;
+        font-size: 14px;
+        margin-right: 1rem;
+    }
+    nav h1 {
+        font-size: 20px;
+    }
+    .masuk2 {
+        display: none;
+        
+    }
+    .navlistcontainer {
+        border-right: solid black 1px;
+    } */
+    .main {
+        display: flex;
+        max-width: 70%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #fff;
+        transform: translateY(-100px);
+        box-shadow: 0 0 1px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .containerjob {
+        margin-right: 20px;
+    }
+    .title {
+        font-size: 26px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .posted {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        font-style: italic;
+        font-size: 11px;
+        color: #8B8680;
+    
+    }
+    .jobdesk {
+        margin-left: 0px;
+    }
+    .jobdesk span {
+        margin-left: 50px;
+        font-size: 14px;
+        font-style:normal;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .posted p {
+        background-color: #f3d457;
+        padding: 5px;
+        font-size: 12px;
+        font-style: normal;
+        margin-right: 5px;
+        color: black;
+    
+    }
+    .apply {
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: 16px;
+        color: #999999;
+        margin-bottom: 12px;
+    
+    }
+    .email {
+        display: flex;
+        margin-left: 50px;
+        align-items: center;
+        color: #8B8680;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .shortlist {
+        box-shadow: 0 0 2px black;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    .share {
+        margin-left: 50px;
+        font-size: 11px;
+        color: #333333;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .logoshare {
+        margin-left: 5px;
+        font-size: 18px;
+        color: #333333;
+    }
+    .logoshare i {
+        border-radius: 20px;
+        border: solid #19757c 1px;
+    }
+    .logo span img {
+        margin-right: -500px;
+        margin-left: -100px;
+    }
+    .jobdesk {
+        margin-left: -100px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .deskripsifooter {
+        margin-right: 100px;
+    }
+    .jurusan {
+        margin-right: 100px;
+    }
+    .kuning {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .deskripsifooter h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .deskripsifooter p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    
+    .deskripsifooter pre {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .jurusan-perusahaan {
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+    .jurusan-perusahaan ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .jurusan-perusahaan p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .jurusan2 {
+        margin-right: 40px;
+    }
+    .jurusan2 ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .jurusan2 p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .social-metode {
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .social {
+        margin-right: 50px;
+    }
+    .main2 {
+        max-width: 60%;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .main3 {
+        max-width: 30%;
+        max-height: 150px;
+        margin-right: 0px;
+    }
+    .applyjob {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    .maincontainer {
+        max-width: 70%;
+        margin-inline: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .jobicon {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1150px) {
+    .main {
+        max-width: 90%;
+    }
+    .maincontainer {
+        max-width: 90%;
+    }
+}

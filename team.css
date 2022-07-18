@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    transition: all .2s linear;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.container {
+    background: #fff;
+    margin-bottom: -80px;
+    margin-top: 100px;
+}
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gambarbanner {
+    width: 280px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.banner {
+    background: #fff;
+}
+.kata2 {
+    width: 80%;
+    padding-top: 20px;
+    margin-inline: auto;
+}
+.kata2 h3 {
+    margin-top: 70px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.kata2 p {
+    font-size: 11px;
+    margin-bottom: 50px;
+}
+.daftar {
+    background: #f3d457;
+    color: #685403;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.waves {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.waves2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: -15px;
+    margin-bottom: 70px;
+}
+.team-container {
+    padding-top: 105px;
+    margin-top: -240px;
+}
+.team-container h1 {
+    color: #5d5d5d;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+.pembatas1 {
+    width: 22%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-container2 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 1rem;
+    /* border: 1px solid red; */
+}
+.card-container2 figure {
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding: 0;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    background: white;
+    transform-style: preserve-3d;
+    transition: all .5s linear;
+    box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.front {
+    backface-visibility: hidden;
+    position: absolute;
+}
+.back {
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    width: 250px;
+    height: 350px;
+}
+.card-container2 figure .front figcaption {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+    margin-bottom: 10px;
+}
+.card-container2 figure .back figcaption {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+    margin-bottom: 10px;
+}
+.card-container2 figure .front img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 250px;
+    height: 300px;
+    backface-visibility: hidden;
+}
+
+.card-container2 figure .back img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 250px;
+    height: 300px;
+    backface-visibility: hidden;
+}
+.card-container2 figure .front p {
+    margin-top: 0;
+    margin-bottom: -15px;
+    backface-visibility: hidden;
+}
+.card-container2 figure .back p {
+    margin-top: 0;
+    margin-bottom: -15px;
+    backface-visibility: hidden;
+}
+.card-container2 figure:hover {
+    box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.pembatas2 {
+    margin: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social-card {
+    margin-bottom: 20px;
+}
+.social-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 38px;
+    color: #58595b;
+    list-style: none;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 105px;
+}
+.social-card ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.social-card p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.containercari {
+    background: #fada5c;
+    margin-bottom: 40px;
+}
+.bannercari {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.gambarbannercari {
+	width: 60%;
+	transform: translateX(-30px);
+
+}
+.gambarcari {
+    width: fit-content;
+}
+.kata2cari{
+    margin-top: 100px;
+    width: 30%;
+    text-align:right;
+    margin-right: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+}
+.carimobile {
+	background: #fff;
+	border-radius: 10px;
+	padding: 10px 20px 10px 55px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1;
+	color: #7b7b7b;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	height: auto;
+	width: 330px;
+	border: none;
+}
+img.search-icon {
+	position: relative;
+	top: 7px;
+	right: 320px;
+	width: 28px;
+}
+.kata2cari2 {
+    display: none;
+}
+.caridekstop {
+    display: none;
+}
+.search-icon2 {
+    display: none;
+}
+footer {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.deskripsifooter h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.deskripsifooter p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.deskripsifooter pre {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #58595b;
+}
+.jurusan-perusahaan {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.jurusan-perusahaan ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.jurusan-perusahaan p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.jurusan2 {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.jurusan2 ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.jurusan2 p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.kuning {
+    text-align: center;
+    background: #f3d457;
+    font-size: 12px;
+    padding: 15px;
+}
+.metode img{
+    width: 50px;
+    margin: 3px 10px 3px 0px;
+}
+.pembayaran {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-metode {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.social ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 38px;
+    color: #58595b;
+}
+.social p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.metode p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.social {
+    margin-bottom: 20px;
+}
+.metode ul {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-height: 500px;
+        margin-top: 120px;
+    }
+    .banner {
+        width: 80%;
+        margin-inline: auto;
+        max-height: 500px;
+    }
+    .kata2 {
+        width: 50%;
+    }
+    .kata2 h3 {
+        margin-top: 120px;
+        font-size: 34px;
+    }
+    .kata2 p {
+        font-size: 13px;
+    }
+    .dummy {
+        color: #f3d457;
+        margin-bottom:50px;
+    }
+    .gambarbanner {
+        width: 500px;
+        margin-top: 120px;
+        transform: translateY(-170px); 
+    } 
+    .waves {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-top: -100px;
+    }
+    .waves2 {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+    .daftar {
+        padding-left: 100px;
+        margin-left: 0px;
+        padding-right: 100px;
+        font-size: 20px;
+    }
+    .team-container h1 {
+        font-size: 30px;
+    }
+    .gambarbannercari {
+        width: 12%;
+        transform: translateX(-30px);
+    }
+    .gambarcari {
+        width: fit-content;
+    }
+    .containercari {
+        background: #fada5c;
+        margin-bottom: 40px;
+        max-height: 320px;
+    }
+    .kata2cari{
+        display: none;
+    }
+    .bannercari {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 100px;
+    }
+    .carimobile{
+        display: none;
+    }
+    .search-icon2 {
+        position: relative;
+        bottom: 65px;
+        left: 45px;
+        width: 28px;
+        display: block;
+    }
+    .kata2cari2{
+        margin-top: 100px;
+        width: 100%;
+        margin-right: 50px;
+        font-weight: bold;
+        color: white;
+        font-size: 36px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .input2 {
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px 20px 10px 55px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        color: #7b7b7b;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        height: auto;
+        width: 250px;
+        border: none;
+    }
+	.caridekstop {
+		display: block;
+		background: #fff;
+		border-radius: 10px;
+		padding: 10px 20px 10px 55px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1;
+		color: #d7d4d8;
+		margin-left: 30px;
+		margin-bottom: 30px;
+		height: auto;
+		width: 350px;
+		border: none;
+	}
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 130px;
+    }
+    .deskripsifooter {
+        margin-right: 100px;
+    }
+    .jurusan {
+        margin-right: 100px;
+    }
+    .kuning {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .deskripsifooter h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .deskripsifooter p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .deskripsifooter pre {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .jurusan-perusahaan {
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+    .jurusan-perusahaan ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .jurusan-perusahaan p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .jurusan2 {
+        margin-right: 40px;
+    }
+    .jurusan2 ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .jurusan2 p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .social-metode {
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .social {
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 765px) and (max-width: 1250px) {
+    .team-container {
+        margin-top: -20%;
+    }
+    .waves {
+        margin-top: 35%;
+    }
+    .gambarbanner {
+        margin-top: 50px;
+    }
+}

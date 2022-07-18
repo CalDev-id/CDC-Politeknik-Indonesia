@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="profilPage.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="sectionProfile">
+			<div class="navBox">
+				<div class="logo">
+					<h3>Politeknik Indonesia</h3>
+					<p>Career Development Center</p>
+				</div>
+				<div class="helloSection">
+					<div class="user">
+						<h2 class="userHello">
+							Hai,
+							<br />
+							<span>Alfares Ariandha</span>
+						</h2>
+						<p class="email">alfaresnurdin77@gmail.com</p>
+						<br />
+						<!-- <hr /> -->
+					</div>
+					<div class="menu">
+						<a href="index.html" class="home">
+							<img src="home.png" alt="" srcset="" />
+							<span>Home</span>
+						</a>
+						<a href="find_jobs.html" class="editProfil">
+							<img src="job.png" alt="" srcset="" />
+							<span>Vacancy</span>
+						</a>
+						<a href="webinar.html" class="webinarIcon">
+							<img src="webinarProfile.png" alt="" srcset="" />
+							<span>Webinar</span>
+						</a>
+						<a href="faq.html" class="jobIcon">
+							<img src="conversation.png" alt="" srcset="" />
+							<span>FAQ</span>
+						</a>
+						<a href="news.html" class="newsIcon">
+							<img src="newspaper-folded.png" alt="" srcset="" />
+							<span>News</span>
+						</a>
+						<a href="#" class="logOut">
+							<img src="logout.png" alt="" srcset="" />
+							<span>Log out</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="boxProfil">
+				<div class="profilUmum">
+					<h3>Profil</h3>
+					<div class="imgProfil">
+						<img src="user (1).png" alt="" />
+					</div>
+					<div class="commonInfo">
+						<div class="name">
+							<label for="">Nama Lengkap</label>
+							<p>Alfares Ariandha</p>
+						</div>
+						<div class="email">
+							<label for="">Email</label>
+							<p>alfaresnurdin77@gmail.com</p>
+						</div>
+						<div class="userName">
+							<label for="">Username</label>
+							<p>alfares123</p>
+						</div>
+						<div class="passWord">
+							<label for="">Password</label>
+							<p>********</p>
+						</div>
+					</div>
+				</div>
+				<div class="profilLanjutan">
+					<h3 class="titleProfilLanjutan">Profil Lanjutan</h3>
+					<div class="dataDiri">
+						<!-- Data Diri Tambahan -->
+						<div class="inputHeader diri">
+							<h3>Data Diri *</h3>
+							<div class="fillInfo">
+								<span class="fill">Belum Terisi</span>
+								<span class="iconArrow">
+									<img src="arrow-down-sign-to-navigate.png" alt="" srcset="" />
+								</span>
+							</div>
+						</div>
+						<section class="addDataDiri header">
+							<div class="namaPanggilan">
+								<label for="signName">Nama Panggilan</label>
+								<input type="text" name="" id="signName" />
+							</div>
+							<div class="ttl">
+								<label for="birthdayPlace">Tempat Lahir</label>
+								<input type="text" name="" id="birthdayPlace" />
+								<label for="birthdayDate">Tanggal Lahir</label>
+								<input type="date" name="" id="birthdayDate" />
+							</div>
+							<div class="religion">
+								<h4>Agama</h4>
+								<div class="inputReligion">
+									<input type="radio" name="agama" id="Islam" />
+									<label for="Islam" class="islam">Islam</label>
+									<br />
+									<input type="radio" name="agama" id="Kristen" />
+									<label for="Kristen" class="kristen">Kristen</label>
+									<br />
+									<input type="radio" name="agama" id="Hindu" />
+									<label for="Hindu" class="hindu">Hindu</label>
+									<br />
+									<input type="radio" name="agama" id="Buddha" />
+									<label for="Buddha" class="buddha">Buddha</label>
+									<br />
+									<input type="radio" name="agama" id="Konghucu" />
+									<label for="Konghucu" class="konghucu">Konghucu</label>
+								</div>
+							</div>
+						</section>
+
+						<!-- Data Pendidikan -->
+						<div class="inputHeader pendidikan">
+							<h3>Data Pendidikan</h3>
+							<div class="fillInfo">
+								<span class="fill">Belum Terisi</span>
+								<span class="iconArrow"
+									><img src="arrow-down-sign-to-navigate.png" alt="" srcset=""
+								/></span>
+							</div>
+						</div>
+						<section class="addDataPendidikan header">
+							<button
+								class="btnAddSchool"
+								style="display: flex; align-items: center"
+							>
+								<img
+									src="more.png"
+									alt=""
+									srcset=""
+									width="15px"
+									height="15px"
+									style="margin-right: 5px"
+								/>
+								Tambah Pendidikan
+							</button>
+							<!-- <div class="formParent">
+								<select name="" id="">
+									<option value="none" disabled selected>-- Jenjang --</option>
+									<option value="SD">SD</option>
+									<option value="SMP">SMP</option>
+									<option value="SMU">SMU</option>
+									<option value="PTN_PTS">Perguruan Tinggi</option>
+								</select>
+								<div class="formIsian">
+									<input
+										type="text"
+										name=""
+										id="namaSekolah"
+										placeholder="Nama Sekolah"
+									/>
+									<input
+										type="text"
+										name=""
+										id="kotaKab"
+										placeholder="Kota / Kabupaten"
+									/>
+									<input
+										type="number"
+										name=""
+										id="tahunMasuk"
+										placeholder="Tahun Masuk"
+									/>
+									<input
+										type="number"
+										name=""
+										id="tahunLulus"
+										placeholder="Tahun Lulus"
+									/>
+								</div>
+								<div class="closeBtn">
+									<img
+										src="cross.png"
+										alt=""
+										width="30px"
+										height="30px"
+									/>
+								</div>
+							</div> -->
+						</section>
+
+						<!-- Data Riwayat Hidup -->
+						<div class="inputHeader cv">
+							<h3>Kemampuan</h3>
+							<div class="fillInfo">
+								<span class="fill">Belum Terisi</span>
+								<span class="iconArrow"
+									><img src="arrow-down-sign-to-navigate.png" alt="" srcset=""
+								/></span>
+							</div>
+						</div>
+						<section class="addDataRiwayat header">
+							<div class="softSkills">
+								<h4 class="skills">Kemampuan <i>Softskills</i></h4>
+								<input type="checkbox" name="" id="TM" />
+								<label for="TM">Manajemen Waktu</label>
+								<br />
+								<input type="checkbox" name="" id="CM" />
+								<label for="CM">Komunikasi</label>
+								<br />
+								<input type="checkbox" name="" id="AD" />
+								<label for="AD">Adaptasi</label>
+								<br />
+								<input type="checkbox" name="" id="PS" />
+								<label for="PS"><i>Problem Solving</i></label>
+								<br />
+								<input type="checkbox" name="" id="TW" />
+								<label for="TW">Kerjasama</label>
+								<br />
+								<input type="checkbox" name="" id="CR" />
+								<label for="CR">Kreativitas</label>
+								<br />
+								<input type="checkbox" name="" id="LD" />
+								<label for="LD">Kepemimpinan</label>
+								<br />
+								<input type="checkbox" name="" id="IS" />
+								<label for="IS"><i>Interpersonal Skills</i></label>
+								<br />
+							</div>
+							<div class="hardSkillsPlusMinus">
+								<label for="HS">Kemampuan <i>Hardskills</i></label>
+								<textarea
+									name=""
+									id="HS"
+									cols="30"
+									rows="5"
+									style="resize: vertical"
+								></textarea>
+								<label for="K+">Kelebihan Anda</label>
+								<textarea
+									name=""
+									id="K+"
+									cols="30"
+									rows="5"
+									style="resize: vertical"
+								></textarea>
+								<label for="K-">Kekurangan Anda</label>
+								<textarea
+									name=""
+									id="K-"
+									cols="30"
+									rows="5"
+									style="resize: vertical"
+								></textarea>
+							</div>
+						</section>
+					</div>
+				</div>
+				<p>*Wajib</p>
+				<button class="savingData">Simpan</button>
+			</div>
+		</div>
+		<div class="accentCircle"></div>
+		<!-- <script src="../JS/login.js"></script> -->
+		<script src="profile.js"></script>
+	</body>
+</html>

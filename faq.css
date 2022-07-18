@@ -1,0 +1,415 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.containercari {
+    background: #fada5c;
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+.bannercari {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.gambarbannercari {
+    width: 60%;
+    transform: translateX(-30px);
+}
+.gambarcari {
+    width: fit-content;
+}
+.kata2cari{
+    margin-top: 100px;
+    width: 30%;
+    text-align: right;
+    margin-right: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+}
+.carimobile{
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 20px 10px 55px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    color: #7b7b7b;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: auto;
+    width: 330px;
+    border: none;
+}
+img.search-icon {
+    position: relative;
+    top: 7px;
+    right: 320px;
+    width: 28px;
+}
+
+.kata2cari2 {
+    display: none;
+}
+.caridekstop {
+    display: none;
+}
+.search-icon2 {
+    display: none;
+}
+.waves {
+    bottom: 0;
+    left: 0;
+    margin-top: -50px;
+    margin-bottom: -30px;
+}
+.container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container h1 {
+    font-size: 20px;
+}
+.container h1 i {
+    margin-right: 10px;
+}
+.collapsible {
+    background-color: #f3d457;
+    color: #685403;
+    content: '\002B';
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.active, .collapsible:hover {
+    background-color: #f3d457;
+    color: #685403;
+}
+.collapsible:after {
+    content: '\002B';
+    color: #685403;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: '\2212';
+}
+.content {
+    padding: 0 18px;
+    border-radius: 10px;
+    /* padding-top: 10px; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #fcfcfc;
+}
+.content p {
+    margin: 10px;
+    margin-bottom: 0px;
+} 
+footer {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.deskripsifooter h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.deskripsifooter p {
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+.deskripsifooter pre {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #58595b;
+}
+.jurusan-perusahaan {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.jurusan-perusahaan ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.jurusan-perusahaan p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.jurusan2 {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.jurusan2 ul li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.jurusan2 p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.kuning {
+    text-align: center;
+    background: #f3d457;
+    font-size: 12px;
+    padding: 15px;
+}
+.metode img{
+    width: 50px;
+    margin: 3px 10px 3px 0px;
+}
+.pembayaran {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-metode {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.social ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 38px;
+    color: #58595b;
+}
+.social p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.metode p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.social {
+    margin-bottom: 20px;
+}
+.metode ul {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .gambarbannercari {
+        width: 12%;
+        transform: translateX(-30px);
+    }
+    .gambarcari {
+        width: fit-content;
+    }
+    .containercari {
+        background: #fada5c;
+        margin-bottom: 40px;
+        margin-top: 110px;
+        max-height: 320px;
+    }
+    .kata2cari{
+        display: none;
+    }
+    .bannercari {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 100px;
+    }
+    .carimobile{
+        display: none;
+    }
+    .search-icon2 {
+        position: relative;
+        bottom: 65px;
+        left: 45px;
+        width: 28px;
+        display: block;
+    }
+    .kata2cari2{
+        margin-top: 100px;
+        width: 100%;
+        margin-right: 50px;
+        font-weight: bold;
+        color: white;
+        font-size: 36px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .input2 {
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px 20px 10px 55px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        color: #7b7b7b;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        height: auto;
+        width: 250px;
+        border: none;
+    }
+	.caridekstop {
+		display: block;
+		background: #fff;
+		border-radius: 10px;
+		padding: 10px 20px 10px 55px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1;
+		color: #d7d4d8;
+		margin-left: 30px;
+		margin-bottom: 30px;
+		height: auto;
+		width: 350px;
+		border: none;
+	}
+    .waves {
+        left: 0;
+        bottom: 0;
+        position: relative;
+        margin-top: -40px;
+        /* margin-top: -110px; */
+        margin-bottom: -140px;
+    }
+    .container {
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .container h1 {
+        font-size: 25px;
+    }
+    .container h1 i {
+        margin-right: 10px;
+    }
+    .collapsible {
+        background-color: #f3d457;
+        color: #685403;
+        content: '\002B';
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+    .collapsible p {
+        margin-right: 45px;
+    }
+    .active, .collapsible:hover {
+        background-color: #f3d457;
+        color: #685403;
+    }
+    .collapsible:after {
+        content: '\002B';
+        color: #685403;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    .active:after {
+        content: '\2212';
+    }
+    .content {
+        padding: 0 18px;
+        border-radius: 10px;
+        /* padding-top: 10px; */
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #fcfcfc;
+    }
+    .content p {
+        margin: 10px;
+        margin-bottom: 0px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .deskripsifooter {
+        margin-right: 100px;
+    }
+    .jurusan {
+        margin-right: 100px;
+    }
+    .kuning {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .deskripsifooter h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .deskripsifooter p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    
+    .deskripsifooter pre {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .jurusan-perusahaan {
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 30px;
+        margin-right: 40px;
+    }
+    .jurusan-perusahaan ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .jurusan-perusahaan p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .jurusan2 {
+        margin-right: 40px;
+    }
+    .jurusan2 ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .jurusan2 p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .social-metode {
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .social {
+        margin-right: 50px;
+    }
+}
