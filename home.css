@@ -546,7 +546,7 @@ footer {
 	.banner {
 		width: 80%;
 		margin-inline: auto;
-		max-height: fit-content;
+		max-height: 450px;
 	}
 	.kata2 {
 		width: 50%;
@@ -563,8 +563,7 @@ footer {
 	}
 	#banner {
 		margin-bottom: 70px;
-		max-height: fit-content;
-		overflow: hidden;
+		max-height: 450px;
 	}
 	.daftar {
 		padding-left: 100px;
