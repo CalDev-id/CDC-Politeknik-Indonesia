@@ -1,0 +1,441 @@
+*{
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+.features {
+    margin-top: 170px;
+    width: 90%;
+    margin-inline: auto;
+    margin-bottom: 70px;
+}
+.features ul li p {
+    font-size: 20px;
+    color: #333333;
+}
+.features i {
+    font-size: 43px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.features ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.features li {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.features h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.packages {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: #f7f7f7;
+}
+.packages h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cardcontainer {
+    width: 80%;
+    margin-inline: auto;
+}
+.card {
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+    margin-bottom: 40px;
+    background: #fff;
+}
+.card h1 {
+    text-align: center;
+    background: #f7f7f7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.card p {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.signup {
+    text-align: center;
+}
+.card li {
+    list-style: square;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.signup {
+    margin-top: 20px;
+    margin-left: 80px;
+    background: #8B8680;
+    font-size: 14px;
+    color: #fff;
+    width: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.card h2 {
+    color: white;
+}
+.company h2 {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    z-index: -1;
+}
+.bank img {
+    width: 100px;
+
+}
+.bankcontainer {
+    display: block;
+    overflow-x:auto;
+}
+.bank {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gambarbannercari {
+	width: 60%;
+	transform: translateX(-30px);
+}
+.gambarcari {
+	width: fit-content;
+}
+.containercari {
+	background: #fada5c;
+	margin-bottom: 40px;
+}
+.kata2cari {
+	margin-top: 100px;
+	width: 30%;
+	text-align: right;
+	margin-right: 50px;
+	font-weight: bold;
+	color: white;
+	font-size: 36px;
+}
+.bannercari {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.carimobile {
+	background: #fff;
+	border-radius: 10px;
+	padding: 10px 20px 10px 55px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1;
+	color: #7b7b7b;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	height: auto;
+	width: 330px;
+	border: none;
+}
+img.search-icon {
+	position: relative;
+	top: 7px;
+	right: 320px;
+	width: 28px;
+}
+.kata2cari2 {
+	display: none;
+}
+.caridekstop {
+	display: none;
+}
+.search-icon2 {
+	display: none;
+}
+footer {
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.deskripsifooter h3 {
+	font-size: 14px;
+	color: black;
+	margin-bottom: 10px;
+}
+.deskripsifooter p {
+	font-size: 12px;
+	margin-bottom: 5px;
+	color: black;
+}
+
+.deskripsifooter pre {
+	font-size: 12px;
+	margin-bottom: 5px;
+	color: #58595b;
+}
+.jurusan-perusahaan {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	color: black;
+	margin-right: 40px;
+}
+.jurusan-perusahaan ul li {
+	list-style: none;
+	font-size: 12px;
+	margin-bottom: 15px;
+	color: black;
+}
+.jurusan-perusahaan p {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: black;
+}
+.jurusan2 {
+	margin-right: 40px;
+	margin-bottom: 30px;
+	color: black;
+}
+.jurusan2 ul li {
+	list-style: none;
+	font-size: 12px;
+	margin-bottom: 15px;
+	color: black;
+}
+.jurusan2 p {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: black;
+}
+.kuning {
+	text-align: center;
+	background: #f3d457;
+	font-size: 12px;
+	padding: 15px;
+	color: black;
+}
+.metode img {
+	width: 50px;
+	margin: 3px 10px 3px 0px;
+}
+.pembayaran {
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+}
+.social-metode {
+	margin-right: 40px;
+	margin-left: 40px;
+	color: black;
+}
+.social ul {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 38px;
+	color: #58595b;
+}
+.social p {
+	font-size: 14px;
+	font-weight: bold;
+}
+.metode p {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.social {
+	margin-bottom: 20px;
+}
+.metode ul {
+	margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .features li {
+        width: 30%;
+        align-items: center;
+    }
+    .features {
+        width: 50%;
+        margin-inline: auto;
+    }
+    .features ul {
+        justify-content: space-between;
+    }
+    .card {
+        width: 20%;
+    }
+    .cardcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .bankcontainer {
+        width: 80%;
+        margin-inline: auto;
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x:hidden;
+        justify-content: space-around;
+    }
+    .bank img {
+        width: 100px;
+    }
+    .bank {
+        padding: 20px;
+        box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+    }
+    .bankcontainer {
+        width: 50%;
+    }
+
+    footer {
+		display: flex;
+		justify-content: center;
+		margin-top: 100px;
+	}
+	.deskripsifooter {
+		margin-right: 100px;
+	}
+	.jurusan {
+		margin-right: 100px;
+	}
+	.kuning {
+		padding: 20px;
+		font-size: 14px;
+	}
+	.deskripsifooter h3 {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.deskripsifooter p {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+
+	.deskripsifooter pre {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.jurusan-perusahaan {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+		margin-right: 40px;
+	}
+	.jurusan-perusahaan ul li {
+		list-style: none;
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.jurusan-perusahaan p {
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.jurusan2 {
+		margin-right: 40px;
+	}
+	.jurusan2 ul li {
+		list-style: none;
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.jurusan2 p {
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+	.social-metode {
+		margin-left: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+	.social {
+		margin-right: 50px;
+	}
+	.gambarbannercari {
+		width: 12%;
+		transform: translateX(-30px);
+	}
+	.gambarcari {
+		width: fit-content;
+	}
+	.containercari {
+		background: #fada5c;
+		margin-bottom: 40px;
+		max-height: 320px;
+	}
+	.kata2cari {
+		display: none;
+	}
+	.bannercari {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+	.carimobile {
+		display: none;
+	}
+	.search-icon2 {
+		position: relative;
+		bottom: 65px;
+		left: 45px;
+		width: 28px;
+		display: block;
+	}
+	.kata2cari2 {
+		margin-top: 100px;
+		width: 100%;
+		margin-right: 50px;
+		font-weight: bold;
+		color: white;
+		font-size: 36px;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.input2 {
+		background: #fff;
+		border-radius: 10px;
+		padding: 10px 20px 10px 55px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1;
+		color: #7b7b7b;
+		margin-left: 30px;
+		margin-bottom: 30px;
+		height: auto;
+		width: 250px;
+		border: none;
+	}
+	.caridekstop {
+		display: block;
+		background: #fff;
+		border-radius: 10px;
+		padding: 10px 20px 10px 55px;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1;
+		color: #d7d4d8;
+		margin-left: 30px;
+		margin-bottom: 30px;
+		height: auto;
+		width: 350px;
+		border: none;
+	}
+}
