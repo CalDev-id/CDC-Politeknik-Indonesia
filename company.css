@@ -72,8 +72,8 @@
     margin-top: 20px;
 }
 .signup {
+	margin-inline: auto;
     margin-top: 20px;
-    margin-left: 80px;
     background: #8B8680;
     font-size: 14px;
     color: #fff;
