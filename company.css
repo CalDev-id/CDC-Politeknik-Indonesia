@@ -73,7 +73,9 @@
 }
 .signup {
 	margin-inline: auto;
+	width: fit-content;
     margin-top: 20px;
+	text-decoration: none;
     background: #8B8680;
     font-size: 14px;
     color: #fff;
