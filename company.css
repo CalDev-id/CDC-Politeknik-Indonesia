@@ -100,6 +100,7 @@
 .bankcontainer {
     display: block;
     overflow-x:auto;
+	padding-top: 20px;
 }
 .bank {
     text-align: center;
@@ -301,6 +302,9 @@ footer {
     .bankcontainer {
         width: 50%;
     }
+	.card h2 {
+		margin-bottom: 0px;
+	}
 
     footer {
 		display: flex;
